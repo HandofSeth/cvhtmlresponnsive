@@ -1,0 +1,388 @@
+
+
+    
+
+
+
+*{
+    list-style: none;
+    color: rgb(141, 129, 129);
+    font-family: 'Mukta', sans-serif;
+  position: static;
+  
+  text-align: center;
+  
+  
+
+    }
+    
+    html {
+        margin:0;
+        padding:0;
+        }
+    
+    body{
+    background: #0B122C;
+    height: 455vh;
+    align-items: center;
+    
+    
+    }
+    
+    .textt{
+    height: 650px;
+    width: 100%;
+   padding-top: 100px;
+    border: solid rgb(146, 113, 113) 1 px;
+    
+    }
+    
+    .navebar{
+        
+        position: sticky;
+        top: 1px;
+        z-index: 100;
+        background: rgb(22, 41, 97);
+    height: 50px;
+    width: 100%;
+    
+    }
+    
+    .frontend{
+        padding-top: 100px;
+        height: 500px;
+        width: 100%;
+        
+    }
+    
+    
+    
+   
+    
+    
+    
+    .info{
+        padding-top: 300px;
+        
+    height: 200px;
+    width: 100%;
+       
+       
+        }
+    
+    
+    
+    li{
+        float:left;
+        padding-left: 20px;
+        border-radius: 30px;
+        border: rgb(2, 4, 10) 2px;
+    }
+    
+    
+    .bar{
+       
+        width: 30em;
+        height: 1em;
+        border-radius: 0.5em;
+        position: relative;
+        background: #bb9f9f;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+      }
+    
+      .backendd{
+          
+       
+        padding-top: 30px;
+       
+    height: 500px;
+    width: 100%;
+    
+    border: solid rgb(146, 113, 113) 1 px;
+   
+        }
+    
+    .webdesign{
+    
+        padding-top: 100px;
+    
+        
+        height: 500px;
+        width: 100%;
+    
+    border: solid rgb(146, 113, 113) 1 px;
+    
+    
+    }
+    
+    .teletravail {
+        padding-top: 30px;
+       
+        
+            
+            height: 500px;
+            width: 100%;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+       
+    
+    
+    
+    }
+      
+    .mes-projects {
+    
+        padding-top: 30px;
+        
+            
+            height: 200px;
+            width: 100%;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+     
+    
+    
+    
+    }
+    
+    .contact{
+        
+        padding-top: 30px;
+      
+            height: 150px;
+            width: 100%;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+        
+    }
+    
+    .image{
+    background: url(./pexels-markus-spiske-2004161.jpg) 80% ;
+    height: 8%;
+  width: 100%;
+   
+  
+    
+
+
+
+    }
+    
+    
+    
+    
+    
+    
+    li:hover {
+    
+   color: yellow;
+    transform: scale(1.1);
+    }
+    
+    
+    .hov:hover{
+    
+    color: yellow;
+    transform: scale(1.2);
+    
+    }
+   
+    
+@media (min-width: 768px) {
+
+
+    *{
+        list-style: none;
+        color: rgb(141, 129, 129);
+        font-family: 'Mukta', sans-serif;
+        text-align: left;
+        margin-left: none; 
+         margin-right: none;
+         position: none;
+        
+        }
+        
+        html {
+            margin:0;
+            padding:0;
+            }
+        
+        body{
+        background: #0B122C;
+        height: 300vh;
+        
+        
+        
+        }
+        
+        .textt{
+        height: 500px;
+        width:500px;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+        display: inline-block;
+
+        }
+        
+        .info{
+         
+            margin-left: 400px;
+            height: 500px;
+            width: 500px;
+                display: inline-block;
+               
+               
+                }
+            
+
+        .navebar{
+            
+            position: sticky;
+            top: 1px;
+            z-index: 100;
+            background: rgb(22, 41, 97);
+        height: 50px;
+        
+        
+        }
+        
+        
+        .frontend{
+            height: 500px;
+            width:500px;
+           
+            border: solid rgb(146, 113, 113) 1 px;
+            display: inline-block;
+            
+
+        }
+        
+        
+       
+        
+        
+        
+       
+        
+        
+        li{
+            float:left;
+            padding-left: 20px;
+            border-radius: 30px;
+            border: rgb(2, 4, 10) 2px;
+        }
+        
+        
+        .bar{
+            
+            width: 30em;
+            height: 1em;
+            border-radius: 0.5em;
+            position: relative;
+            background: #bb9f9f;
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+            
+          }
+        
+          .backendd{
+              
+            
+            display: inline-block;
+            margin-left: 400px;
+            height: 500px;
+            width:500px;
+        
+            border: solid rgb(146, 113, 113) 1 px;
+            
+            }
+        
+        .webdesign{
+        
+            
+        margin-top: 100px;
+            display: inline-block;
+            height: 500px;
+        width:500px;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+        display: inline-block;
+        
+        }
+        
+        .teletravail {
+        
+            margin-left: 400px;
+            margin-top: 100px;
+                display: inline-block;
+                height: 500px;
+            width:500px;
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            display: inline-block;
+        
+        
+        
+        }
+          
+        .mes-projects {
+        
+            
+            margin-top: 100px;
+                display: inline-block;
+                height: 200px;
+            width: 500px;
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            display: inline-block;
+        
+        
+        
+        }
+        
+        .contact{
+            margin-left: 400px;
+            margin-top: 100px;
+                display: inline-block;
+                height: 150px;
+            width: 500px;
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            display: inline-block; 
+        }
+        
+        .image{
+        background: url(./pexels-markus-spiske-2004161.jpg) 80% ;
+        height: 500px;
+        width: 100%;
+        
+        
+        }
+        
+.name{
+    margin-left: 500px;
+}
+
+        .block1 {display: block;
+            margin-left: 300px;
+            width: 1500px;
+            height: 650px;
+        }
+        .block2 {display: block;
+            width: 1500px;
+            height: 650px;
+            margin-left: 300px;
+        }
+        .block3 {display: block;
+            width: 1500px;
+            height: 650px;
+            margin-left: 300px;
+
+        }
+
+        .block4 {display: block;
+            width: 1500px;
+            height: 650px;
+            margin-left: 300px;
+        }
+}
+
